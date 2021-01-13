@@ -35,6 +35,7 @@ function updateBigCup() {
   const fullCups = document.querySelectorAll('.cup-small.full').length;
   const totalCups = smallCups.length;
 
+  // Add styles and text
   if (fullCups === 0) {
     percentage.style.visibility = 'hidden';
     percentage.style.height = 0;
